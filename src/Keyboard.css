@@ -1,0 +1,19 @@
+.keyboard {
+	display: flex;
+	flex-direction: column;
+	margin: 24px;
+}
+
+.row1 {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.row2 {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.row3 {
+	display: flex;
+}

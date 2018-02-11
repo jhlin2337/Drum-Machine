@@ -1,0 +1,29 @@
+.SelectInput {
+	font-size: 18px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
+.SelectInput p {
+	margin-top: 16px;
+}
+
+.select {
+	background-color: black;
+	width: 56px;
+	height: 24px;
+}
+
+.slider {
+	background-color: blue;
+	width: 20px;
+	height: 16px;
+	margin: 4px;
+}

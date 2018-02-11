@@ -1,0 +1,29 @@
+.Key {
+	background-color: grey;
+	width: 100px;
+	height: 80px;
+	border-radius: 4px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 4px 4px 10px black;
+	border: none;
+	cursor: pointer;
+}
+
+.Key:focus {
+	outline: none;
+}
+
+.Key:active {
+	transform: translate(0, 4px);
+	box-shadow: none;
+}
+
+.power-on:active {
+	background-color: orange;
+}
+

@@ -1,0 +1,24 @@
+.VolumeSlider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vol-slide {
+	-webkit-appearance: none;
+	width: 240px;
+	height: 3px;
+	background: #444444;
+	border: 1px black solid;
+	box-shadow: 4px 4px 10px black;
+	outline: none;
+}
+
+.vol-slide::-webkit-slider-thumb {
+	-webkit-appearance: none;
+    appearance: none;
+    width: 8px;
+    height: 25px;
+    background: blue;
+    cursor: pointer;
+}
